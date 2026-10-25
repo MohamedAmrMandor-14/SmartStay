@@ -1,0 +1,22 @@
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+backend/SmartStay.Api/appsettings.Local.json
+backend/SmartStay.Api/appsettings.*.Local.json
+
+# Build output
+node_modules/
+dist/
+bin/
+obj/
+.vs/
+.vscode/
+publish/
+.angular/
+coverage/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
